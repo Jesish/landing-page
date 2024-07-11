@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https //fonts.googleapis.com/css family=roboto");
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.logo img {
+  width: 270px;
+  height: 278.15px;
+  top: 46px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.navbar .logo {
+  margin-left: 55px;
+  margin-bottom: 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
+  margin-right: 290px;
+  left: 345px;
+  gap: 50px;
+  margin-bottom: 90px;
+}
+
+.navbar ul li a {
+  color: #646464;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+
+.navbar ul span li a {
+  color: black;
+}
+
+.navbar ul li a:active,
+.navbar ul li a:focus,
+.navbar ul li a.current {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar ul li a:active::after,
+.navbar ul li a:focus::after,
+.navbar ul li a.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #eb7202;
+}
+
+.navbar .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eb7202;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  margin-right: 110px;
+  margin-bottom: 90px;
+}
+
+.navbar .button img {
+  margin-right: 10px;
+}
+
+.first {
+  width: auto;
+  height: 590px;
+  margin-top: -60px;
+  margin-left: 135px;
+  margin-right: 118px;
+  justify-content: space-between;
+}
+
+.first .text-one {
+  width: 548px;
+  height: 488px;
+  gap: 30px;
+  margin-bottom: 40px;
+  position: relative;
+  top: 48px;
+}
+
+.first .heading-one p {
+  font: bold;
+  width: 470px;
+  height: 288px;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 96px;
+  color: #000000;
+  margin-left: 25px;
+}
+
+.first .heading-one span {
+  color: #eb7202;
+}
+
+.first .para {
+  width: 530px;
+  height: 112px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #646464;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.first .pic-one {
+  margin-left: -25px;
+}
+
+.first {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 360px;
+}
+
+.first .arrow {
+  width: 401px;
+  height: 28px;
+  gap: 82px;
+  opacity: 0px;
+  display: flex;
+  list-style: none;
+  margin-left: 25px;
+  margin-top: 25px;
+  color: #0e1034;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 28px;
+}
+
+.first .arrow li span {
+  top: 5.23px;
+  left: 20.75px;
+  margin-left: 15px;
+}
+
+.main .second {
+  width: 1759px;
+  height: 859px;
+  top: 850px;
+  margin-top: 50px;
+  margin-left: 68px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #eb7202e5;
+  border-radius: 50px;
+}
+
+.second .sec-text {
+  width: 728px;
+  position: relative;
+  height: 298px;
+  top: 156px;
+  left: 114px;
+  gap: 30px;
+  opacity: 0px;
+}
+
+.second .box {
+  position: relative;
+  width: 643px;
+  height: 800px;
+  bottom: 378px;
+  left: 949px;
+  gap: 0px;
+  border-radius: 40px;
+  opacity: 0px;
+  background-color: #0e1034;
+}
+
+.second .top {
+  width: 728px;
+  height: 60px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  color: white;
+}
+
+.second .top span {
+  color: black;
+}
+
+.second .bottom {
+  margin-top: 40px;
+  width: 728px;
+  height: 154px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+}
+
+.second .bottom .bbl {
+  width: 200px;
+  height: 28px;
+  top: 464px;
+  left: 114px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.13px;
+  text-align: left;
+  color: #333333;
+}
+
+.second .bottom span {
+  color: black;
+}
+
+.third {
+  position: relative;
+  width: 1600px;
+  height: 577px;
+  top: 1505px;
+  margin-left: 70px;
+  gap: 30px;
+  opacity: 0px;
+}
+
+.third .text {
+  width: Fill (1, 488px) px;
+  height: Hug (60px) px;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.third .cart-box {
+  width: 1488px;
+  height: 487px;
+  margin-top: 40px;
+  gap: 0px;
+  background-color: green;
+}
+
+.third .cart {
+  position: relative;
+  width: 357.01px;
+  height: 487px;
+  background-color: #1a1a1a;
+  left: 0.01px;
+  gap: 0px;
+  border-radius: 40px;
+  margin-top: 35px;
+}
+
+.third .cart-box .cart p {
+  position: relative;
+  width: 319px;
+  height: 172px;
+  top: 76px;
+  left: 19.01px;
+  gap: 30px;
+  opacity: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+}
+
+.box1 {
+  width: 105%;
+  height: 845px;
+  top: 630px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #1a1a1a;
+  position: relative;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.box1 .box2 {
+  width: 1700px;
+  height: 578px;
+  border-radius: 50px;
+  background-color: white;
+  position: relative;
+}
+
+.box2 .text-box {
+  width: 685px;
+  height: 246px;
+  top: 166px;
+  left: 65px;
+  gap: 60px;
+  /* background-color: red; */
+  position: relative;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+
+.box2 .text-box button {
+  width: 257px;
+  height: 67px;
+  padding: 10px;
+  gap: 0px;
+  border-radius: 4px;
+  justify-content: space-between;
+  opacity: 0px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.box2 .text-box button span {
+  width: 13.54px;
+  height: 17.5px;
+  top: 5.23px;
+  left: 20.75;
+  font: bold;
+  margin-left: 7px;
+  width: auto;
+  height: auto;
+  font-size: 24px;
+}
+
+.box1 .box2 .pic-box img {
+  width: 586.35px;
+  height: 419.8px;
+  bottom: 117px;
+  left: 1130.08px;
+  gap: 0px;
+  position: relative;
+  transform: rotate(36.4deg);
+}
+
+.box1 .box2 .pic-box2 img {
+  width: 659.1px;
+  height: 470.48px;
+  top: 91.07px;
+  left: 985.89px;
+  gap: 0px;
+  opacity: 0px;
+  transform: rotate(14.4deg);
+}
+
+.box {
+  position: relative;
+  width: 643px;
+  height: 800px;
+  background-color: #0e1034;
+  border-radius: 40px;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.dropdown {
+  top: 45px;
+  margin-bottom: -5px;
+  width: Fill (410.01px) px;
+  height: auto;
+  gap: 5px;
+  opacity: 1px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.arrow {
+  font-size: 14px;
+}
+
+.dropdown-content p {
+  margin: 0 0 10px;
+}
+
+/*white line*/
+.dropdown::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 11px;
+  width: 90%;
+  height: 1px;
+  background-color: #a6a6a6;
+}
+
+.dropdown-content {
+  display: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: -15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.dropdown.show .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: -15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.dropdown.show .dropdown-content {
+  display: block;
+  max-height: 200px; /* Adjust based on the content height */
+  opacity: 1;
+}
+
+.arrow {
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown.show .arrow {
+  transform: rotate(180deg);
+}
