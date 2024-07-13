@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jesish</title>
+  <script src="https://kit.fontawesome.com/49b6b027f2.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .consultation {
+      padding: 50px;
+    }
+
+    .consultation-main {
+      display: flex;
+      height: 594px;
+      border-radius: 50px;
+      justify-content: center;
+      align-items: center;
+      background-color: #0E1034;
+    }
+
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      width: 1500px;
+    }
+
+    .consul-text {
+      text-align: center;
+      font-size: 80px;
+      font-weight: 600;
+      color: white;
+    }
+
+    .consul-para {
+      font-size: 30px;
+      color: #A6A6A6;
+      font-weight: 600;
+
+    }
+
+    .consul-btn {
+      background-color: #FF6600;
+      width: 280px;
+      color: white;
+      display: flex;
+      border-radius: 5px;
+      gap: 20px;
+      height: 66px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btntext {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .orange {
+      color: #FF6600;
+    }
+
+    .contact-section {
+      padding: 20px 150px;
+    }
+
+    .contact-main {
+      display: flex;
+      gap: 250px;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .name,
+    .email,
+    .contact,
+    .question {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    .get-in-touch {
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    input {
+      height: 52px;
+      width: 700px;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid var(--grey-100, #E5E4E2)
+    }
+
+    textarea {
+      height: 250px;
+      padding: 20px;
+      border: 1px solid var(--grey-100, #E5E4E2)
+    }
+
+    .mapcolor {
+      background-color: #FF66001A
+    }
+
+    iframe {
+      padding: 20px;
+    }
+
+    input::placeholder {
+      font-size: 20px;
+      color: var(--grey-300, #9A9591);
+    }
+
+    textarea::placeholder {
+      font-size: 20px;
+      color: var(--grey-300, #9A9591);
+    }
+
+    .submit {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 600;
+      color: white;
+      gap: 20px;
+      height: 66px;
+      width: 215px;
+      background-color: #FF6600;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <-----from here ---->
+  <section class="consultation">
+    <div class="consultation-main">
+      <div class="main-container">
+        <div class="consul-text">
+          Benefit from a tried and true <span class="orange">application development process.</span>
+
+        </div>
+        <div class="consul-para">
+          Let's use an agile process to string together iterative victories.
+        </div>
+        <div class="consul-btn">
+          <div class="btntext">
+            Schedule a Consultation
+          </div>
+          <div class="arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <-------stop here -->
+
+
+  <section class="contact-section">
+    <div class="contact-main">
+      <div class="form">
+        <div class="get-in-touch">
+          Get In <span class="orange">Touch</span>
+        </div>
+        <div class="name">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Please enter your name.......">
+        </div>
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="text" placeholder="Please enter your email........">
+        </div>
+        <div class="contact">
+          <label for="contact">Contact Number</label>
+          <input type="text" placeholder="Please enter your Contact Number......">
+        </div>
+        <div class="question">
+          <label for="question">Your Question</label>
+          <textarea name="question" id="question" placeholder="Please enter your question below....."></textarea>
+        </div>
+        <div class="submit">
+          <div class="btn-text">
+            Submit Now
+          </div>
+          <div class="arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="map">
+        <div class="mapcolor">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114086.5977494956!2d87.18279792091639!3d26.673887630951132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6c66e80fbfa9%3A0x38094d1a7c974283!2sItahari!5e0!3m2!1sen!2snp!4v1720896193448!5m2!1sen!2snp"
+            width="700" height="850" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>
