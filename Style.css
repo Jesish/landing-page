@@ -2,6 +2,9 @@
 @import url("https //fonts.googleapis.com/css family=roboto");
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Poppins, sans-serif;
 }
 
@@ -11,10 +14,12 @@ body {
 }
 
 .navbar {
+  height: 85px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
+  background-color: white;
 }
 .logo {
   display: flex;
@@ -31,7 +36,6 @@ body {
   color: #646464;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 400;
   position: relative;
 }
 
@@ -90,7 +94,7 @@ body {
   justify-content: space-around;
   align-items: center;
   column-gap: 100px;
-  padding: 20px 20px 20px 50px;
+  padding: 40px 20px 20px 50px;
 }
 
 .first .text-one {
@@ -134,49 +138,48 @@ body {
 }
 .pic-one img {
   border-radius: 30px;
-  
+  margin-top: 20px;
   width: 700px;
   height: 520px;
   object-position: left;
 }
+.navigation{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.HomePage{
+  height: 700px;
+}
 /*------new section----------*/
 
-.main .second {
-  width: 90%;
+.what{
+  padding: 0 35px;
+  height: 920px;
+}
+.second {
   height: 856px;
   background-color: #eb7202e5;
   border-radius: 50px;
   display: flex;
-  gap: 240px;
+  gap: 100px;
   justify-content: center; /* Horizontally centers the parent div */
-  align-items: center;
-  margin-top: 80px;
-  margin-left: 110px;
 }
 
 .second .sec-text {
-  width: 728px;
-  position: relative;
-  height: 298px;
-  bottom: 120px;
-  left: 34px;
-  size: 20px;
-  line-height: 28px;
+ padding: 150px 0 0 100px;
 }
 
 .second .box {
-  position: relative;
-  width: 643px;
+
   height: 800px;
   border-radius: 40px;
+  margin-right: 20px;
+  margin-top: 20px;
   background-color: #0e1034;
 }
 
 .second .top {
-  width: 728px;
-  height: 60px;
-  gap: 0px;
-  opacity: 0px;
   font-size: 60px;
   font-weight: 600;
   line-height: 60px;
@@ -189,11 +192,6 @@ body {
 
 .second .bottom {
   margin-top: 40px;
-  width: 728px;
-  height: 154px;
-  gap: 0px;
-  opacity: 0px;
-
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -202,13 +200,6 @@ body {
 }
 
 .second .bottom .bbl {
-  width: 200px;
-  height: 28px;
-  top: 464px;
-  left: 114px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: roboto;
   font-size: 24px;
   font-weight: 600;
   line-height: 28.13px;
@@ -220,20 +211,14 @@ body {
   color: black;
 }
 /*-----------------------new sectionnnnn-----------------------------*/
-.third {
-  width: 100%;
-  height: 700px;
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 200px;
+.third{
+  padding: 80px;
+  height: 600px;
 }
-
 .third .text {
   width: 98.6%;
   height: 60px;
-  justify-content: space-between;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 60px;
   margin-left: 10px;  
@@ -274,7 +259,6 @@ body {
 }
 
 .third .cart-box {
-  width: 1670px;
   height: 487px;
 }
 
@@ -375,7 +359,7 @@ body {
 }
 
 .cart {
-  min-width: 357.01px; /* Ensure this matches the card width in your existing styles */
+  min-width: 357.01px; 
   margin: 10px;
   padding: 20px;
   background-color: #0E1034;
@@ -475,22 +459,18 @@ body {
 
 /*-----------------------------------new section-----------------------------------*/
 .box1 {
-  width: 100%;
   height: 805px;
   background-color: #1a1a1a;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  top:100px;
 }
 
 .box1 .box2 {
-  width: 90%;
+  width: 95%;
   height: 578px;
   border-radius: 50px;
   background-color: white;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -498,9 +478,7 @@ body {
 
 .box2 .text-box {
   width: 685px;
-  height: 246px;
-  /* background-color: red; */
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   line-height: 60px;
 }
@@ -533,49 +511,31 @@ body {
 }
 
 .pic-box {
-  width:950px;
   height: 579px;
   overflow: hidden;
 }
 
 .box1 .box2 .pic-box .top img {
-  width: 570px;
-  height: 410px;
-  position: relative;
-  transform: rotate(33.4deg);  
-  bottom:515px;
-  left: 438px;
-
+    width: 570px;
+    height: 410px;
+    position: relative;
+    transform: rotate(33.4deg);
+    bottom: 535px;
+    left: 155px;
 }
 
 .box1 .box2 .pic-box .bottom img {
-  width: 650px;
-  height: 460px;
-  transform: rotate(17.27deg);
-  margin-left: 300px;
-  margin-top: 195px;
-
+    width: 650px;
+    height: 460px;
+    transform: rotate(17.27deg);
+    margin-left: 20px;
+    margin-top: 215px;
 }
-
-.box {
-  position: relative;
-  width: 643px;
-  height: 800px;
-  background-color: #0e1034;
-  border-radius: 40px;
-  color: white;
-  padding: 20px;
-  box-sizing: border-box;
+.downsection{
+  margin-top: 50px;
 }
-
 .dropdown {
-  top: 45px;
   margin-bottom: -5px;
-  width: Fill (410.01px) px;
-  height: auto;
-  gap: 5px;
-  opacity: 1px;
-  position: relative;
   margin-left: 50px;
 }
 
@@ -607,7 +567,6 @@ body {
 .dropdown::after {
   content: "";
   display: block;
-  position: absolute;
   bottom: 11px;
   width: 90%;
   height: 1px;
